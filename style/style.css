@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600;700&family=Barlow+Semi+Condensed:wght@500;600&family=Karla:wght@400;700&family=Oswald:wght@300;500&family=Red+Hat+Mono:wght@400;500;700&display=swap');
+
+
+
+*,
+*::before ::after{
+margin:0;
+padding:0;
+box-sizing: border-box;
+outline: none;
+scroll-behavior: smooth;
+}
+
+
+:root {
+    --clr--Moderate-violet: hsl(263, 55%, 52%);
+--Very--dark-grayish-blue: hsl(217, 19%, 35%);
+--Very--dark-blackish-blue: hsl(219, 29%, 14%);
+--White: hsl(0, 0%, 100%);
+--Light-gray: hsl(0, 0%, 81%);
+--Light-grayish-blue: hsl(210, 46%, 95%);
+}
+  
+  
+html {
+      font-size: 13px;
+    }
+  
+    
+    body {
+      margin-top: 1.5rem; 
+      background-color:var(--Light-grayish-blue);
+      background-repeat: no-repeat;
+      background-size:contain;
+      min-height: 100vh;
+      display:grid;
+    place-items: center;
+  
+     }
+
+     .container{
+      background:var(--Light-grayish-blue);
+      border-radius: 7px;
+      overflow: hidden;
+      max-width: 30rem;
+      margin-left: 2rem;
+      margin-right: 3rem;
+      margin-top: 1rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      display: grid;
+      place-content: center;
+     }
+
+     .container-1_head {
+         background-color: var(--clr--Moderate-violet);
+         color: var(--White);
+         display: grid;
+         place-items: center  ;
+         margin-bottom: 1rem;
+         margin-top: 2rem;
+         margin-right: -1rem;
+         margin-left: -1rem;
+         border-radius: 2%;
+    
+        
+     }
+     
+
+     .container-1_head img{
+       border-radius: 50%;
+      display: grid;
+      margin-top:1rem;
+      margin-left: -23rem;
+     margin-bottom: 1rem;
+     
+     }
+
+     .container-1_head .img2{
+       
+       margin-top: 0rem;
+       margin-right: -18rem;
+       margin-left: 38rem;
+       margin-top:-7rem;
+       }
+     
+
+     .container-1_head h3{
+       margin-top: -12rem;
+       font-size: 1.2rem;
+       margin-left: -9rem;
+     }
+
+     .container-1_head h5{
+       margin-top: -9rem;
+       font-size: 1rem;
+       margin-left: -9rem;
+       opacity: .6;
+     }
+
+     .container-1_head .para1 {
+       font-size: 2rem;
+       margin-left: 2rem;
+       margin-top: -3rem;
+
+     }
+
+     .container-1_head .para2{
+       font-size: 1.3rem;
+       margin-left: 2rem;
+       margin-bottom: 2.5rem;
+       line-height: 2rem;
+       opacity: .6;
+     }
+
+
+
+
+     .container-2_head{
+      background-color: var(--Very--dark-grayish-blue);
+      color: var(--White);
+      display: grid;
+      place-items: center  ;
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+      margin-right: -1rem;
+      margin-left: -1rem;
+      border-radius: 2%;
+     }
+     
+
+
+
+     .container-2_head img{
+      border-radius: 50%;
+      display: grid;
+      margin-top:2rem;
+      margin-left: -23rem;
+     margin-bottom: 1rem;
+     }
+
+     .container-2_head h3{
+      margin-top: -6.5rem;
+      font-size: 1.2rem;
+      margin-left: -9rem;
+     }
+
+     .container-2_head h5{
+      margin-top: -3rem;
+      font-size: 1rem;
+      margin-left: -9rem;
+      opacity: .5;
+     }
+
+     .container-2_head .para1{
+      font-size: 2rem;
+      margin-left: -3rem;
+      margin-top: 1rem;
+     }
+  
+     .container-2_head .para2{
+      font-size: 1.3rem;
+      margin-left: 2rem;
+      margin-bottom: 2.5rem;
+      line-height: 2rem;
+      opacity: .6;
+      margin-top: 0.5rem;
+     }
+
+    
+
+
+
+     .container-3_head{
+      background-color: var(--White);
+      color:black;
+      display: grid;
+      place-items: center  ;
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+      margin-right: -1rem;
+      margin-left: -1rem;
+      border-radius: 2%;
+     }
+     
+
+
+
+     .container-3_head img{
+      border-radius: 50%;
+      display: grid;
+      margin-top:2rem;
+      margin-left: -23rem;
+     margin-bottom: 1rem;
+     }
+
+     .container-3_head h3{
+      margin-top: -6.5rem;
+      font-size: 1.2rem;
+      margin-left: -9rem;
+     }
+
+     .container-3_head h5{
+      margin-top: -3rem;
+      font-size: 1rem;
+      margin-left: -9rem;
+      opacity: .5;
+     }
+
+     .container-3_head .para1{
+      font-size: 2rem;
+      margin-left: -6rem;
+      margin-top: 1rem;
+     }
+  
+     .container-3_head .para2{
+      font-size: 1.3rem;
+      margin-left: -1rem;
+      margin-bottom: 2.5rem;
+      line-height: 2rem;
+      opacity: .6;
+      margin-top: 0.5rem;
+     }
+
+    
+
+     .container-4_head{
+      background-color:var(--Very--dark-blackish-blue);
+      color:var(--White);
+      display: grid;
+      place-items: center  ;
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+      margin-right: -1rem;
+      margin-left: -1rem;
+      border-radius: 2%;
+     }
+     
+
+
+
+     .container-4_head img{
+      border-radius: 50%;
+      display: grid;
+      margin-top:2rem;
+      margin-left: -23rem;
+     margin-bottom: 1rem;
+     }
+
+     .container-4_head h3{
+      margin-top: -6.5rem;
+      font-size: 1.2rem;
+      margin-left: -9rem;
+     }
+
+     .container-4_head h5{
+      margin-top: -3rem;
+      font-size: 1rem;
+      margin-left: -9rem;
+      opacity: .5;
+     }
+
+     .container-4_head .para1{
+      font-size: 2rem;
+      margin-left: 2rem;
+      margin-top: 1rem;
+     }
+  
+     .container-4_head .para2{
+      font-size: 1.3rem;
+      margin-left: -1rem;
+      margin-bottom: 2.5rem;
+      line-height: 2rem;
+      opacity: .6;
+      margin-top: 0.5rem;
+     }
+
+
+     
+
+     .container-5_head{
+      background-color:var(--White);
+      color:black;
+      display: grid;
+      place-items: center  ;
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+      margin-right: -1rem;
+      margin-left: -1rem;
+      border-radius: 2%;
+     }
+     
+
+
+
+     .container-5_head img{
+      border-radius: 50%;
+      display: grid;
+      margin-top:2rem;
+      margin-left: -23rem;
+     margin-bottom: 1rem;
+     }
+
+     .container-5_head h3{
+      margin-top: -6.5rem;
+      font-size: 1.2rem;
+      margin-left: -9rem;
+     }
+
+     .container-5_head h5{
+      margin-top: -3rem;
+      font-size: 1rem;
+      margin-left: -9rem;
+      opacity: .5;
+     }
+
+     .container-5_head .para1{
+      font-size: 2rem;
+      margin-left: 2rem;
+      margin-top: 1rem;
+     }
+  
+     .container-5_head .para2{
+      font-size: 1.3rem;
+      margin-left: -1rem;
+      margin-bottom: 2.5rem;
+      line-height: 2rem;
+      opacity: .6;
+      margin-top: 0.5rem;
+     }
